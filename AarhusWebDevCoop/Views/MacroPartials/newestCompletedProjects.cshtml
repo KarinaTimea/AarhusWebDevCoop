@@ -1,0 +1,21 @@
+﻿@inherits Umbraco.Web.Macros.PartialViewMacroPage
+	
+ @{
+            IQueryable projects =
+            Model.Content.AncestorOrSelf(1)
+            .Children
+            .Where(x => x.DocumentTypeAlias == "projectsMain")
+            .First()
+            .Children
+            .Where("Visible")
+            .OrderBy("CreateDate desc")
+			.Take(5);
+            }
+	<ul>
+            @foreach (IPublishedContent page in projects) {
+				var prevalue = page.GetPropertyValue<int>("projectStatus");
+				if(Umbraco.GetPreValueAsString(prevalue) == "Completed"){
+            		<li><a href="@page.Url">@page.Name</a></li>
+				}
+            }
+	</ul>

@@ -1,0 +1,83 @@
+﻿ 2016-02-25 18:31:55,979 [P8448/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.4.0 application starting on KARINA
+ 2016-02-25 18:31:56,047 [P8448/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-02-25 18:31:56,071 [P8448/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 22ms)
+ 2016-02-25 18:31:56,121 [P8448/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-02-25 18:31:56,327 [P8448/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 206ms)
+ 2016-02-25 18:31:56,338 [P8448/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-02-25 18:31:56,343 [P8448/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
+ 2016-02-25 18:31:56,344 [P8448/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-02-25 18:31:56,360 [P8448/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 15ms)
+ 2016-02-25 18:31:56,369 [P8448/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-02-25 18:31:56,374 [P8448/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+ 2016-02-25 18:31:56,374 [P8448/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-02-25 18:31:56,380 [P8448/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 5ms)
+ 2016-02-25 18:31:56,406 [P8448/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-02-25 18:31:56,419 [P8448/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 12ms)
+ 2016-02-25 18:31:56,419 [P8448/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-02-25 18:31:56,424 [P8448/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 5ms)
+ 2016-02-25 18:31:57,140 [P8448/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-02-25 18:31:57,369 [P8448/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-02-25 18:31:57,370 [P8448/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-02-25 18:31:57,406 [P8448/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-02-25 18:31:57,417 [P8448/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-02-25 18:31:57,500 [P8448/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-02-25 18:31:57,510 [P8448/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1615ms)
+ 2016-02-25 18:31:58,255 [P8448/D2/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:56528/umbraco (UmbracoModule request)
+ 2016-02-25 18:31:58,399 [P8448/D2/T11] INFO  umbraco.content - Load Xml from file...
+ 2016-02-25 18:31:58,459 [P8448/D2/T11] INFO  umbraco.content - Loaded Xml from file.
+ 2016-02-25 18:31:58,625 [P8448/D2/T11] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-02-25 18:32:07,418 [P8448/D2/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-02-25 18:32:07,430 [P8448/D2/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 11ms)
+ 2016-02-25 18:32:11,539 [P8448/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-02-25 18:32:11,555 [P8448/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 6ms)
+ 2016-02-25 18:32:11,722 [P8448/D2/T11] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username szocs.karina@gmail.com from IP address ::1
+ 2016-02-25 18:32:11,722 [P8448/D2/T11] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: szocs.karina@gmail.com logged in from IP address ::1
+ 2016-02-25 18:32:11,837 [P8448/D2/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-02-25 18:32:11,844 [P8448/D2/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 7ms)
+ 2016-02-25 18:32:11,889 [P8448/D2/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-02-25 18:32:11,902 [P8448/D2/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 12ms)
+ 2016-02-25 18:32:11,977 [P8448/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-02-25 18:32:11,989 [P8448/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 11ms)
+ 2016-02-25 18:32:11,999 [P8448/D2/T18] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-02-25 18:32:12,000 [P8448/D2/T18] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-02-25 18:32:12,002 [P8448/D2/T18] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-02-25 18:32:12,014 [P8448/D2/T18] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 11ms)
+ 2016-02-25 18:32:58,664 [P8448/D2/T17] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-02-24 18:32:58
+ 2016-02-25 19:07:18,233 [P8448/D2/T120] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: szocs.karina@gmail.com, IP Address: ::1
+ 2016-02-25 19:18:07,837 [P8448/D2/T160] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username szocs.karina@gmail.com from IP address ::1
+ 2016-02-25 19:18:07,837 [P8448/D2/T160] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: szocs.karina@gmail.com logged in from IP address ::1
+ 2016-02-25 19:18:20,847 [P8448/D2/T170] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2016-02-25 19:18:20,854 [P8448/D2/T170] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 7ms)
+ 2016-02-25 19:18:46,136 [P8448/D2/T139] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-02-25 19:18:46,136 [P8448/D2/T139] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-02-25 19:19:26,842 [P8448/D2/T139] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '0' has been published.
+ 2016-02-25 19:19:26,946 [P8448/D2/T139] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-02-25 19:19:26,956 [P8448/D2/T139] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 10ms)
+ 2016-02-25 19:19:30,979 [P8448/D2/T14] INFO  umbraco.content - Save Xml to file...
+ 2016-02-25 19:19:31,023 [P8448/D2/T169] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-25 19:23:30,312 [P8448/D2/T161] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2016-02-25 19:23:30,320 [P8448/D2/T161] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 7ms)
+ 2016-02-25 19:23:43,592 [P8448/D2/T138] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2016-02-25 19:23:43,592 [P8448/D2/T138] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2016-02-25 19:34:02,019 [P8448/D2/T87] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1081' has been published.
+ 2016-02-25 19:34:06,066 [P8448/D2/T101] INFO  umbraco.content - Save Xml to file...
+ 2016-02-25 19:34:06,070 [P8448/D2/T105] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-25 19:34:09,131 [P8448/D2/T105] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1081' has been published.
+ 2016-02-25 19:34:13,145 [P8448/D2/T101] INFO  umbraco.content - Save Xml to file...
+ 2016-02-25 19:34:13,148 [P8448/D2/T98] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-25 19:34:52,165 [P8448/D2/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1081' has been published.
+ 2016-02-25 19:34:56,193 [P8448/D2/T111] INFO  umbraco.content - Save Xml to file...
+ 2016-02-25 19:34:56,196 [P8448/D2/T113] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-25 20:31:53,224 [P8448/D2/T166] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: szocs.karina@gmail.com, IP Address: ::1
+ 2016-02-25 20:38:30,706 [P8448/D2/T118] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username szocs.karina@gmail.com from IP address ::1
+ 2016-02-25 20:38:30,706 [P8448/D2/T118] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: szocs.karina@gmail.com logged in from IP address ::1
+ 2016-02-25 20:41:52,726 [P8448/D2/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1081' has been published.
+ 2016-02-25 20:41:56,819 [P8448/D2/T261] INFO  umbraco.content - Save Xml to file...
+ 2016-02-25 20:41:56,822 [P8448/D2/T87] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-25 20:58:01,224 [P8448/D2/T47] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: szocs.karina@gmail.com, IP Address: ::1
+ 2016-02-25 22:08:47,649 [P8448/D2/T45] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username szocs.karina@gmail.com from IP address ::1
+ 2016-02-25 22:08:47,649 [P8448/D2/T45] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: szocs.karina@gmail.com logged in from IP address ::1
+ 2016-02-25 22:28:21,222 [P8448/D2/T210] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: szocs.karina@gmail.com, IP Address: ::1
+ 2016-02-25 22:32:58,680 [P8448/D2/T18] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-02-24 22:32:58
+ 2016-02-25 23:04:08,561 [P8448/D2/T128] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username szocs.karina@gmail.com from IP address ::1
+ 2016-02-25 23:04:08,561 [P8448/D2/T128] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: szocs.karina@gmail.com logged in from IP address ::1
