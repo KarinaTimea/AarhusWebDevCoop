@@ -2,10 +2,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
-using System.Web.Mvc;
 using System.Net.Mail;
-
+using System.Web.Mvc;
+using Umbraco.Core.Models;
 
 namespace AarhusWebDevCoop.Controllers
 {
@@ -43,6 +42,19 @@ namespace AarhusWebDevCoop.Controllers
             }
 
             TempData["success"] = true;
+
+           IContent comment = Services.ContentService.CreateContent(model.Subject, CurrentPage.Id, "Message");
+
+            comment.SetValue("senderName", model.Name);
+            comment.SetValue("email", model.Email);
+            comment.SetValue("subject", model.Subject);
+            comment.SetValue("message", model.Message);
+
+            // Save
+            Services.ContentService.Save(comment);
+
+            // Save and Publish
+            //Services.ContentService.SaveAndPublishWithStatus(message);
 
             return RedirectToCurrentUmbracoPage();
         } 
