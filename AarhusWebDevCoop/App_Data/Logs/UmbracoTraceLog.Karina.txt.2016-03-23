@@ -1,0 +1,157 @@
+﻿ 2016-03-23 17:57:03,191 [P9396/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.4.0 application starting on KARINA
+ 2016-03-23 17:57:03,234 [P9396/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-03-23 17:57:03,240 [P9396/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 6ms)
+ 2016-03-23 17:57:03,283 [P9396/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-03-23 17:57:03,397 [P9396/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 114ms)
+ 2016-03-23 17:57:03,485 [P9396/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-03-23 17:57:03,486 [P9396/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2016-03-23 17:57:03,486 [P9396/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-03-23 17:57:03,487 [P9396/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2016-03-23 17:57:03,497 [P9396/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-03-23 17:57:03,507 [P9396/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 9ms)
+ 2016-03-23 17:57:03,507 [P9396/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-03-23 17:57:03,511 [P9396/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 3ms)
+ 2016-03-23 17:57:03,605 [P9396/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-03-23 17:57:03,606 [P9396/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-03-23 17:57:03,606 [P9396/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-03-23 17:57:03,606 [P9396/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-03-23 17:57:04,356 [P9396/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-03-23 17:57:04,493 [P9396/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Models.PublishedContent.PublishedContentModel
+ 2016-03-23 17:57:04,493 [P9396/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Models.PublishedContent.PublishedContentModel, found 0 (took 0ms)
+ 2016-03-23 17:57:04,536 [P9396/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-03-23 17:57:04,583 [P9396/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-03-23 17:57:04,637 [P9396/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-03-23 17:57:04,713 [P9396/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-03-23 17:57:04,768 [P9396/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-03-23 17:57:04,787 [P9396/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1685ms)
+ 2016-03-23 17:57:06,936 [P9396/D2/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:56528/umbraco (UmbracoModule request)
+ 2016-03-23 17:57:07,095 [P9396/D2/T11] INFO  umbraco.content - Load Xml from file...
+ 2016-03-23 17:57:07,100 [P9396/D2/T11] INFO  umbraco.content - Loaded Xml from file.
+ 2016-03-23 17:57:07,524 [P9396/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-03-23 17:57:07,525 [P9396/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2016-03-23 17:57:07,904 [P9396/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-03-23 17:57:07,905 [P9396/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 0ms)
+ 2016-03-23 17:57:08,004 [P9396/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2016-03-23 17:57:08,004 [P9396/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 0ms)
+ 2016-03-23 17:57:25,213 [P9396/D2/T8] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username karina from IP address ::1
+ 2016-03-23 17:57:25,229 [P9396/D2/T8] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: karina logged in from IP address ::1
+ 2016-03-23 17:57:25,327 [P9396/D2/T17] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-03-23 17:57:25,328 [P9396/D2/T17] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-03-23 17:57:25,376 [P9396/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-03-23 17:57:25,377 [P9396/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2016-03-23 17:57:25,456 [P9396/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-03-23 17:57:25,457 [P9396/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2016-03-23 17:57:25,470 [P9396/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-03-23 17:57:25,470 [P9396/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-03-23 17:57:25,473 [P9396/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-03-23 17:57:25,473 [P9396/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-03-23 17:58:08,155 [P9396/D2/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-03-22 17:58:08
+ 2016-03-23 17:58:16,891 [P9396/D2/T17] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-03-23 17:58:16,892 [P9396/D2/T17] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 0ms)
+ 2016-03-23 18:16:57,740 [P9396/D2/T184] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: karina, IP Address: ::1
+ 2016-03-23 18:32:50,728 [P9396/D2/T370] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username karina from IP address ::1
+ 2016-03-23 18:32:50,728 [P9396/D2/T370] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: karina logged in from IP address ::1
+ 2016-03-23 18:41:12,454 [P9396/D2/T353] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Get to know Bootstrap' with Id '1069' has been published.
+ 2016-03-23 18:41:16,586 [P9396/D2/T5] INFO  umbraco.content - Save Xml to file...
+ 2016-03-23 18:41:16,593 [P9396/D2/T351] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-23 18:41:59,229 [P9396/D2/T336] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'What is Grunt' with Id '1070' has been published.
+ 2016-03-23 18:42:03,274 [P9396/D2/T351] INFO  umbraco.content - Save Xml to file...
+ 2016-03-23 18:42:03,277 [P9396/D2/T335] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-23 18:42:56,195 [P9396/D2/T305] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'What is AngularJS' with Id '1071' has been published.
+ 2016-03-23 18:43:00,229 [P9396/D2/T329] INFO  umbraco.content - Save Xml to file...
+ 2016-03-23 18:43:00,232 [P9396/D2/T334] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-23 18:45:28,162 [P9396/D2/T299] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Articles' with Id '1066' has been published.
+ 2016-03-23 18:45:32,198 [P9396/D2/T276] INFO  umbraco.content - Save Xml to file...
+ 2016-03-23 18:45:32,201 [P9396/D2/T36] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-23 18:46:10,860 [P9396/D2/T28] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Articles' with Id '1066' has been published.
+ 2016-03-23 18:46:14,913 [P9396/D2/T360] INFO  umbraco.content - Save Xml to file...
+ 2016-03-23 18:46:14,916 [P9396/D2/T300] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-23 18:50:34,906 [P9396/D2/T360] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Get to know Bootstrap' with Id '1069' has been published.
+ 2016-03-23 18:50:39,507 [P9396/D2/T26] INFO  umbraco.content - Save Xml to file...
+ 2016-03-23 18:50:39,510 [P9396/D2/T334] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-23 18:50:39,512 [P9396/D2/T322] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'What is Grunt' with Id '1070' has been published.
+ 2016-03-23 18:50:44,041 [P9396/D2/T347] INFO  umbraco.content - Save Xml to file...
+ 2016-03-23 18:50:44,045 [P9396/D2/T334] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-23 18:50:44,046 [P9396/D2/T322] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'What is Grunt' with Id '1070' has been published.
+ 2016-03-23 18:50:48,079 [P9396/D2/T26] INFO  umbraco.content - Save Xml to file...
+ 2016-03-23 18:50:48,082 [P9396/D2/T334] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-23 18:50:49,448 [P9396/D2/T322] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'What is AngularJS' with Id '1071' has been published.
+ 2016-03-23 18:50:53,463 [P9396/D2/T26] INFO  umbraco.content - Save Xml to file...
+ 2016-03-23 18:50:53,467 [P9396/D2/T334] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-23 18:51:10,251 [P9396/D2/T362] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Articles' with Id '1066' has been published.
+ 2016-03-23 18:51:14,269 [P9396/D2/T33] INFO  umbraco.content - Save Xml to file...
+ 2016-03-23 18:51:14,272 [P9396/D2/T340] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-23 19:10:42,360 [P9396/D2/T38] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mini Website' with Id '1072' has been published.
+ 2016-03-23 19:10:46,420 [P9396/D2/T362] INFO  umbraco.content - Save Xml to file...
+ 2016-03-23 19:10:46,423 [P9396/D2/T274] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-23 19:11:58,973 [P9396/D2/T300] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Project 2' with Id '1073' has been published.
+ 2016-03-23 19:12:03,009 [P9396/D2/T38] INFO  umbraco.content - Save Xml to file...
+ 2016-03-23 19:12:03,013 [P9396/D2/T33] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-23 19:12:33,695 [P9396/D2/T38] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Project 3' with Id '1074' has been published.
+ 2016-03-23 19:12:37,740 [P9396/D2/T342] INFO  umbraco.content - Save Xml to file...
+ 2016-03-23 19:12:37,743 [P9396/D2/T313] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-23 19:13:15,350 [P9396/D2/T317] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Budget Approval System' with Id '1074' has been published.
+ 2016-03-23 19:13:19,367 [P9396/D2/T332] INFO  umbraco.content - Save Xml to file...
+ 2016-03-23 19:13:19,371 [P9396/D2/T331] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-23 19:13:24,265 [P9396/D2/T318] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Stationery Management System' with Id '1073' has been published.
+ 2016-03-23 19:13:28,291 [P9396/D2/T318] INFO  umbraco.content - Save Xml to file...
+ 2016-03-23 19:13:28,294 [P9396/D2/T331] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-23 19:14:18,091 [P9396/D2/T345] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Chess Game' with Id '1075' has been published.
+ 2016-03-23 19:14:22,134 [P9396/D2/T332] INFO  umbraco.content - Save Xml to file...
+ 2016-03-23 19:14:22,138 [P9396/D2/T358] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-23 19:15:23,806 [P9396/D2/T278] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Survey' with Id '1087' has been published.
+ 2016-03-23 19:15:27,853 [P9396/D2/T332] INFO  umbraco.content - Save Xml to file...
+ 2016-03-23 19:15:27,861 [P9396/D2/T279] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-23 19:16:16,801 [P9396/D2/T292] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Shopping Cart' with Id '1088' has been published.
+ 2016-03-23 19:16:20,850 [P9396/D2/T366] INFO  umbraco.content - Save Xml to file...
+ 2016-03-23 19:16:20,853 [P9396/D2/T280] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-23 19:17:06,810 [P9396/D2/T34] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Airline Reservation System' with Id '1089' has been published.
+ 2016-03-23 19:17:10,854 [P9396/D2/T291] INFO  umbraco.content - Save Xml to file...
+ 2016-03-23 19:17:10,858 [P9396/D2/T33] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-23 19:26:22,914 [P9396/D2/T217] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Campaign Information System' with Id '1090' has been published.
+ 2016-03-23 19:26:26,963 [P9396/D2/T224] INFO  umbraco.content - Save Xml to file...
+ 2016-03-23 19:26:26,966 [P9396/D2/T212] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-23 19:28:25,570 [P9396/D2/T249] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Time Table Generation System' with Id '1091' has been published.
+ 2016-03-23 19:28:29,604 [P9396/D2/T253] INFO  umbraco.content - Save Xml to file...
+ 2016-03-23 19:28:29,607 [P9396/D2/T250] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-23 19:38:25,451 [P9396/D2/T309] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Time Table Generation System' with Id '1091' has been published.
+ 2016-03-23 19:38:29,497 [P9396/D2/T309] INFO  umbraco.content - Save Xml to file...
+ 2016-03-23 19:38:29,501 [P9396/D2/T307] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-23 19:51:42,150 [P9396/D2/T316] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username david from IP address ::1
+ 2016-03-23 19:56:39,982 [P9396/D2/T257] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-03-23 19:56:39,982 [P9396/D2/T257] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-03-23 19:58:50,708 [P9396/D2/T212] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field crops
+ 2016-03-23 20:00:01,917 [P9396/D2/T217] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2016-03-23 20:00:01,929 [P9396/D2/T217] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 12ms)
+ 2016-03-23 20:00:11,386 [P9396/D2/T253] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2016-03-23 20:00:11,386 [P9396/D2/T248] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2016-03-23 20:00:11,386 [P9396/D2/T253] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2016-03-23 20:00:50,433 [P9396/D2/T249] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Members' with Id '0' has been published.
+ 2016-03-23 20:00:54,480 [P9396/D2/T249] INFO  umbraco.content - Save Xml to file...
+ 2016-03-23 20:00:54,483 [P9396/D2/T204] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-23 20:21:03,754 [P9396/D2/T268] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: karina, IP Address: ::1
+ 2016-03-23 20:25:30,031 [P9396/D2/T329] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username karina from IP address ::1
+ 2016-03-23 20:25:30,031 [P9396/D2/T329] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: karina logged in from IP address ::1
+ 2016-03-23 20:25:41,954 [P9396/D2/T15] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username david from IP address ::1
+ 2016-03-23 20:28:06,179 [P9396/D2/T266] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-03-23 20:28:06,179 [P9396/D2/T266] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-03-23 20:45:05,739 [P9396/D2/T333] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: karina, IP Address: ::1
+ 2016-03-23 21:58:08,176 [P9396/D2/T216] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-03-22 21:58:08
+ 2016-03-23 22:45:24,947 [P9396/D2/T186] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username karina from IP address ::1
+ 2016-03-23 22:45:24,947 [P9396/D2/T186] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: karina logged in from IP address ::1
+ 2016-03-23 22:53:13,443 [P9396/D2/T230] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username david from IP address ::1
+ 2016-03-23 22:55:52,886 [P9396/D2/T245] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field crops
+ 2016-03-23 22:56:13,547 [P9396/D2/T227] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1109
+ 2016-03-23 22:56:24,966 [P9396/D2/T187] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1109
+ 2016-03-23 22:56:32,847 [P9396/D2/T241] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1110
+ 2016-03-23 23:01:43,940 [P9396/D2/T236] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '1081' has been published.
+ 2016-03-23 23:01:48,013 [P9396/D2/T236] INFO  umbraco.content - Save Xml to file...
+ 2016-03-23 23:01:48,016 [P9396/D2/T196] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-23 23:08:04,106 [P9396/D2/T188] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Text Page' with Id '1068' has been unpublished.
+ 2016-03-23 23:08:08,133 [P9396/D2/T183] INFO  umbraco.content - Save Xml to file...
+ 2016-03-23 23:08:08,137 [P9396/D2/T263] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-23 23:09:16,597 [P9396/D2/T241] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field crops
+ 2016-03-23 23:09:25,235 [P9396/D2/T246] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field crops
+ 2016-03-23 23:09:35,844 [P9396/D2/T191] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1111
+ 2016-03-23 23:18:04,367 [P9396/D2/T237] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field crops
+ 2016-03-23 23:18:25,409 [P9396/D2/T246] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field crops

@@ -9,24 +9,29 @@
 		<meta charset="utf-8">
   		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="@Url.Content("~/Content/bootstrap.css")">
+		<link rel="stylesheet" href="@Url.Content("~/css/style.css")">
 		<title>@Umbraco.Field("siteTitle")</title>
 		
 	</head>
 <body>	
 	
-	<nav class="navbar navbar-default">
-		<h1>Aarhus Web Developer Corporation</h1>
+	<div class="container">
+	<nav class="navbar navbar-default">		
+			<img src="../../media/1005/logo.png" alt="logo"/>
+			<h1>Aarhus Web Developer Corporation</h1>
+		<br />
 		@Umbraco.RenderMacro("mainMenu")
 	</nav>
 	
-	<div class="container">
+	
 		@RenderBody()
-	</div>
+	
 	
 	<div id="footer-container">
 		<footer class="panel-footer">
 			@Umbraco.Field("footer", recursive: true)			
 		</footer>
+	</div>
 	</div>
 	
 	
