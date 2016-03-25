@@ -352,6 +352,18 @@
     <Content Include="scss\Scss1.scss" />
     <Content Include="Scripts\jquery-2.2.0.min.map" />
     <Content Include="Views\homePage.cshtml" />
+    <Content Include="Views\AboutUs1.cshtml" />
+    <Content Include="Views\articleItem.cshtml" />
+    <Content Include="Views\articlesMain.cshtml" />
+    <Content Include="Views\contactPage.cshtml" />
+    <Content Include="Views\login.cshtml" />
+    <Content Include="Views\Master.cshtml" />
+    <Content Include="Views\members.cshtml" />
+    <Content Include="Views\message.cshtml" />
+    <Content Include="Views\projectItem.cshtml" />
+    <Content Include="Views\projectsMain.cshtml" />
+    <Content Include="Views\siteMap.cshtml" />
+    <Content Include="Views\textPage.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
