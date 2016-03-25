@@ -304,6 +304,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="css\style.css" />
     <Content Include="packages.config" />
     <Content Include="App_Plugins\ModelsBuilder\package.manifest" />
     <Content Include="Scripts\bootstrap.js" />
@@ -364,6 +365,12 @@
     <Content Include="Views\projectsMain.cshtml" />
     <Content Include="Views\siteMap.cshtml" />
     <Content Include="Views\textPage.cshtml" />
+    <Content Include="Views\MacroPartials\articlesList.cshtml" />
+    <Content Include="Views\MacroPartials\ContactForm.cshtml" />
+    <Content Include="Views\MacroPartials\login.cshtml" />
+    <Content Include="Views\MacroPartials\mainMenu.cshtml" />
+    <Content Include="Views\MacroPartials\newestCompletedProjects.cshtml" />
+    <Content Include="Views\MacroPartials\siteMap.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
