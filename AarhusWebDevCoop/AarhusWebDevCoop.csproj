@@ -305,10 +305,24 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="css\style.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="media\1001\full-hd-cat-profile-amazing-wallpaper-cute-cat.jpg" />
+    <Content Include="media\1001\full-hd-cat-profile-amazing-wallpaper-cute-cat_big-thumb.jpg" />
+    <Content Include="media\1001\full-hd-cat-profile-amazing-wallpaper-cute-cat_thumb.jpg" />
+    <Content Include="media\1002\928785_729168267192766_1258256596_n.jpg" />
+    <Content Include="media\1003\fun6562-star-wars-han-solo-snow-gear-pop-lc-excl.jpg" />
+    <Content Include="media\1004\20141230193127-work.jpeg" />
+    <Content Include="media\1004\20141230193127-work_thumb.jpeg" />
+    <Content Include="media\1004\20141230193127-work_thumb.jpg" />
+    <Content Include="media\1005\logo.png" />
     <Content Include="packages.config" />
     <Content Include="App_Plugins\ModelsBuilder\package.manifest" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Scripts\jquery-2.2.0.intellisense.js" />
     <Content Include="Scripts\jquery-2.2.0.js" />
     <Content Include="Scripts\jquery-2.2.0.min.js" />
@@ -409,6 +423,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\ContactFormSurfaceController.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\ContactForm.cs" />
   </ItemGroup>
