@@ -351,6 +351,7 @@
     <Content Include="Content\bootstrap.min.css.map" />
     <Content Include="scss\Scss1.scss" />
     <Content Include="Scripts\jquery-2.2.0.min.map" />
+    <Content Include="Views\homePage.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
